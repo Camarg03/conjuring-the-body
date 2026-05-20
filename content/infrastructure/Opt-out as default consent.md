@@ -12,7 +12,7 @@ tags:
 
 Opt-out works in a similar way to cookies: data use is treated as something already built into the system, and the user, institution, or administrator must actively intervene in order to refuse it. Consent is not requested as a clear affirmative act; instead, refusal becomes a configuration task.
 
-In the context of health data, this is especially problematic. The data at stake is not browsing behavior or consumer preference, but internal images of the body, diagnoses, clinical histories, and possible biological risks. A medical scan stored in the cloud can be organized through services such as [[aws-medical-ai-workflow|AWS HealthImaging]], connected to clinical records, associated with genomic data, and later processed through machine learning systems.
+In the context of health data, this is especially problematic. The data at stake is not browsing behavior or consumer preference, but internal images of the body, diagnoses, clinical histories, and possible biological risks. A medical scan stored in the cloud can be organized through services such as [[infrastructure/AWS medical AI workflow|AWS HealthImaging]], connected to clinical records, associated with genomic data, and later processed through machine learning systems.
 
 AWS states that some AWS AI services may use and store customer content for service improvement, including debugging, evaluation, and model training, unless an organization applies an AI services opt-out policy. This does not mean that every AWS health service automatically trains on medical images, but it shows how refusal can become an administrative burden rather than a primary ethical principle. See: [AWS AI services opt-out policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_ai-opt-out.html).
 
@@ -22,4 +22,4 @@ The problem is not only whether a company directly uses the data. The deeper iss
 
 ## Related notes
 
-- [[aws-medical-ai-workflow]]
+- [[infrastructure/AWS medical AI workflow]]
