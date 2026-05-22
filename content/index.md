@@ -1,16 +1,39 @@
 ---
 title: Conjuring the Body
 ---
-<a href="#conjuro-01">
+<div class="image-popup">
 
   
 
-  <img src="conjuro_01.jpg" class="popup-thumb" alt="Conjuring the Body image">
+  <input type="checkbox" id="conjuro-01-toggle" class="popup-toggle">
 
   
 
-</a>
+  <label for="conjuro-01-toggle">
 
+  
+
+    <img src="conjuro_01.jpg" class="popup-thumb" alt="Conjuring the Body image">
+
+  
+
+  </label>
+
+  
+
+  <label for="conjuro-01-toggle" class="popup-overlay">
+
+  
+
+    <img src="conjuro_01.jpg" class="popup-full" alt="Conjuring the Body image enlarged">
+
+  
+
+  </label>
+
+  
+
+</div>
   
 
 <div id="conjuro-01" class="popup-lightbox">

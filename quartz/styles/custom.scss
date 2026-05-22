@@ -2,38 +2,42 @@
 
 // put your custom CSS here!
 
-.popup-thumb {
-  max-width: 320px;
-  height: auto;
-  cursor: zoom-in;
-  border-radius: 8px;
+.image-popup {
   display: block;
   margin-bottom: 2rem;
 }
 
-.popup-lightbox {
+.popup-toggle {
+  display: none;
+}
+
+.popup-thumb {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  cursor: zoom-in;
+  display: block;
+}
+
+.popup-overlay {
   display: none;
   position: fixed;
-  z-index: 9999;
+  z-index: 999999;
   inset: 0;
   background: rgba(0, 0, 0, 0.94);
   align-items: center;
   justify-content: center;
   padding: 40px;
+  cursor: zoom-out;
 }
 
-.popup-lightbox:target {
-  display: flex;
-}
-
-.popup-lightbox img {
+.popup-full {
   max-width: 92vw;
   max-height: 92vh;
   object-fit: contain;
+  cursor: zoom-out;
 }
 
-.popup-close {
-  position: fixed;
-  inset: 0;
-  cursor: zoom-out;
+.popup-toggle:checked ~ .popup-overlay {
+  display: flex;
 }
