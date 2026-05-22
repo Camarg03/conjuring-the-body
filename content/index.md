@@ -1,7 +1,7 @@
 ---
 title: Conjuring the Body
 ---
-
+![[conjuro_01.jpg]]
 # Conjuring the Body
 
   
