@@ -1,54 +1,17 @@
 ---
 title: Conjuring the Body
 ---
-<div class="image-popup">
+<img src="conjuro_01.jpg" class="popup-thumb" onclick="document.getElementById('conjuroModal').showModal()">
+
+<dialog id="conjuroModal" class="image-modal" onclick="this.close()">
 
   
 
-  <input type="checkbox" id="conjuro-01-toggle" class="popup-toggle">
+  <img src="conjuro_01.jpg">
 
   
 
-  <label for="conjuro-01-toggle">
-
-  
-
-    <img src="conjuro_01.jpg" class="popup-thumb" alt="Conjuring the Body image">
-
-  
-
-  </label>
-
-  
-
-  <label for="conjuro-01-toggle" class="popup-overlay">
-
-  
-
-    <img src="conjuro_01.jpg" class="popup-full" alt="Conjuring the Body image enlarged">
-
-  
-
-  </label>
-
-  
-
-</div>
-  
-
-<div id="conjuro-01" class="popup-lightbox">
-
-  
-
-  <a href="#" class="popup-close"></a>
-
-  
-
-  <img src="conjuro_01.jpg" alt="Conjuring the Body image enlarged">
-
-  
-
-</div>
+</dialog>
 # Conjuring the Body
 
   

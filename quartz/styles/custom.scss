@@ -2,42 +2,29 @@
 
 // put your custom CSS here!
 
-.image-popup {
+.popup-thumb {
+  width: 320px;
+  max-width: 100%;
+  cursor: zoom-in;
   display: block;
   margin-bottom: 2rem;
 }
 
-.popup-toggle {
-  display: none;
+.image-modal {
+  border: none;
+  padding: 0;
+  background: transparent;
+  max-width: 95vw;
+  max-height: 95vh;
 }
 
-.popup-thumb {
-  width: 320px;
-  max-width: 100%;
-  height: auto;
-  cursor: zoom-in;
+.image-modal::backdrop {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.image-modal img {
+  max-width: 90vw;
+  max-height: 90vh;
   display: block;
-}
-
-.popup-overlay {
-  display: none;
-  position: fixed;
-  z-index: 999999;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.94);
-  align-items: center;
-  justify-content: center;
-  padding: 40px;
   cursor: zoom-out;
-}
-
-.popup-full {
-  max-width: 92vw;
-  max-height: 92vh;
-  object-fit: contain;
-  cursor: zoom-out;
-}
-
-.popup-toggle:checked ~ .popup-overlay {
-  display: flex;
 }
