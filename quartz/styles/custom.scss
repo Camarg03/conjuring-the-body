@@ -28,3 +28,11 @@
   display: block;
   cursor: zoom-out;
 }
+
+/* Hide dates in automatic folder listings */
+
+.section-li .meta {
+
+  display: none !important;
+
+}
