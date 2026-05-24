@@ -36,3 +36,8 @@
   display: none !important;
 
 }
+
+/* Hide all visible Quartz metadata dates */
+p.meta {
+  display: none !important;
+}
