@@ -53,4 +53,5 @@ In this sense, power is located not only in data ownership, but in the ability t
 
 ## Related notes
 
-- [[opt-out-as-default-consent]]
+- [[Black box medical imaging]]
+- [[Opt-out as default consent]]

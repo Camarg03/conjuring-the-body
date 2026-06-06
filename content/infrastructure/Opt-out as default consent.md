@@ -22,4 +22,5 @@ The problem is not only whether a company directly uses the data. The deeper iss
 
 ## Related notes
 
-- [[infrastructure/AWS medical AI workflow]]
+- [[AWS medical AI workflow]]
+- [[Black box medical imaging]]
