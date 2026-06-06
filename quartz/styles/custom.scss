@@ -41,3 +41,19 @@
 p.meta {
   display: none !important;
 }
+/* Replace Quartz title with GIF logo */
+.page-title {
+  margin-bottom: 1.5rem;
+}
+
+.page-title a {
+  color: transparent !important;
+  font-size: 0 !important;
+  display: block !important;
+  width: 220px !important;
+  height: 220px !important;
+  background-image: url("/assets/logo.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+}
