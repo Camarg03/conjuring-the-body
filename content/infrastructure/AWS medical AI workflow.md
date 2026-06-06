@@ -3,10 +3,9 @@ title: AWS medical AI workflow
 tags:
   - infrastructure
   - medical-imaging
-  - cloud
   - ai
   - health-data
-  - machine-learning
+  - data-governance
 ---
 
 # AWS medical AI workflow

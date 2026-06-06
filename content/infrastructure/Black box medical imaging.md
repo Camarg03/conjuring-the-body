@@ -5,9 +5,8 @@ tags:
   - medical-imaging
   - ai
   - health-data
-  - opacity
   - data-governance
-  - body
+  - opacity
 ---
 
 # Black box medical imaging
