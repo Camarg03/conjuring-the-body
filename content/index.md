@@ -18,7 +18,9 @@ This archive follows that passage from body to image, from image to data, and fr
 
 > The body is not transformed into data only when it is scanned, but when it enters an infrastructure that can store it, classify it, circulate it, and make it trainable.
 
+
 <img src="conjuro_01.jpg" class="popup-thumb" onclick="document.getElementById('conjuroModal').showModal()">
+
 ## Current research lines
 
 ### Infrastructure and medical AI
