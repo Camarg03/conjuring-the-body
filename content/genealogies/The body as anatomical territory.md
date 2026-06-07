@@ -23,9 +23,16 @@ In this sense, anatomical representation is not simply a way of revealing the bo
 ## Anatomical tables and the mapped body
 
 <figure>
-  <img src="../assets/1_NXbUUuseLljNavSUS5br-w.webp" alt="Anatomical figure of the venous system from Vesalius">
-  <figcaption>Anatomical figure of the venous system attributed to Andreas Vesalius, used in Daniel Brownstein’s discussion of anatomical images as map-like guides to the body’s interior.</figcaption>
+  <img src="../assets/1_NXbUUuseLljNavSUS5br-w.webp" class="popup-thumb" style="width:100%; max-width:100%; height:auto; cursor:pointer;" onclick="document.getElementById('anatomyModal01').showModal()">
+
+  <figcaption>
+    Anatomical figure used as a visual reference for the relation between anatomy, measurement, and the mapped body. Source: Daniel Brownstein, “Mapping the Materials of the Human Body.”
+  </figcaption>
 </figure>
+
+<dialog id="anatomyModal01" class="image-modal" onclick="this.close()">
+  <img src="../assets/1_NXbUUuseLljNavSUS5br-w.webp">
+</dialog>
 
 Aglaia Berlutti’s text on the body as territory is useful because it places the Evelyn Tables within a wider relation between anatomy and cartography. The body appears as an interior geography: something that can be opened, traced, delimited, and organized through visual knowledge.
 
@@ -36,9 +43,16 @@ Reference: [Aglaia Berlutti, “El cuerpo como territorio: anatomía, cartograf�
 ## Mapping as distance
 
 <figure>
-  <img src="../assets/anatomical-plate-evelyn-table-comparison.jpeg" alt="Comparison between an anatomical plate and an Evelyn Table">
-  <figcaption>Comparison between an anatomical plate from Diderot and d’Alembert’s <em>Encyclopédie</em> and an Evelyn Table. The image shows how vessels could be arranged to suggest the human form while also unfolding as a map-like structure.</figcaption>
+  <img src="../assets/anatomical-plate-evelyn-table-comparison.jpeg" class="popup-thumb" onclick="document.getElementById('anatomyModal02').showModal()">
+
+  <figcaption>
+    Comparison between an anatomical plate from Diderot and d’Alembert’s <em>Encyclopédie</em> and an Evelyn Table. The image shows how vessels could be arranged to suggest the human form while also unfolding as a map-like structure.
+  </figcaption>
 </figure>
+
+<dialog id="anatomyModal02" class="image-modal" onclick="this.close()">
+  <img src="../assets/anatomical-plate-evelyn-table-comparison.jpeg">
+</dialog>
 
 Daniel Brownstein’s text on human dissection and the Evelyn Tables helps deepen this relation between anatomy and mapping. The anatomical table is not only a scientific object; it is also a device of distance. It allows the body to be seen, studied, and taught after being separated from the living subject.
 
@@ -51,9 +65,16 @@ Reference: [Daniel Brownstein, “Mapping the Materials of the Human Body.”](h
 ## Wax, corrosion, and the disappearance of the body
 
 <figure>
-  <img src="../assets/injected-vascular-system.jpg" alt="Injected Vascular System, c. 1766–1787">
-  <figcaption>Anonymous, <em>Injected Vascular System (Système vasculaire injecté)</em>, c. 1766–1787. Musée Fragonard de l’École nationale vétérinaire d’Alfort, Maisons-Alfort. © FORGET Patrick/SAGAPHOTO.COM / Alamy Stock Photo. Image referenced in Charles Kang’s “Anatomy of the Bel Effet.”</figcaption>
+  <img src="../assets/injected-vascular-system.jpg" class="popup-thumb" onclick="document.getElementById('anatomyModal03').showModal()">
+
+  <figcaption>
+    Anonymous, <em>Injected Vascular System (Système vasculaire injecté)</em>, c. 1766–1787. Musée Fragonard de l’École nationale vétérinaire d’Alfort, Maisons-Alfort. © FORGET Patrick/SAGAPHOTO.COM / Alamy Stock Photo. Source: Charles Kang, “Anatomy of the Bel Effet.”
+  </figcaption>
 </figure>
+
+<dialog id="anatomyModal03" class="image-modal" onclick="this.close()">
+  <img src="../assets/injected-vascular-system.jpg">
+</dialog>
 
 Charles Kang’s article on the *Injected Vascular System* at the Musée Fragonard is especially relevant because it shows how anatomical visibility can depend on disappearance. The object was produced through injection-corrosion: vessels were injected with a wax compound, while surrounding organic tissues were later dissolved or removed. What remains is a vascular form, suspended between specimen, image, and sculpture.
 
