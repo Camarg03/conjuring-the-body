@@ -57,3 +57,79 @@ p.meta {
   background-repeat: no-repeat !important;
   background-position: left center !important;
 }
+
+/* Cleaner folder listing layout */
+
+.section-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding-left: 0;
+}
+
+.section-li {
+  display: block !important;
+  padding: 1.1rem 0 1.3rem 0;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+.section-li > .section {
+  display: block !important;
+}
+
+.section-li .desc {
+  display: block !important;
+  max-width: 100%;
+}
+
+.section-li .desc h3,
+.section-li .desc h3 a,
+.section-li a.internal {
+  font-size: 1.15rem;
+  line-height: 1.35;
+  max-width: 720px;
+  display: inline-block;
+}
+
+.section-li .tags {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.65rem;
+  max-width: 760px;
+}
+
+.section-li .tags li {
+  margin: 0 !important;
+}
+
+.section-li .tags a {
+  font-size: 0.78rem;
+  line-height: 1.2;
+  padding: 0.18rem 0.45rem;
+}
+
+/* Make folder item titles less compressed */
+
+.folder-container .section-li {
+  display: block !important;
+}
+
+.folder-container .section-li .section {
+  display: block !important;
+}
+
+/* Mobile / narrow screens */
+
+@media all and (max-width: 800px) {
+  .section-li .desc h3,
+  .section-li .desc h3 a,
+  .section-li a.internal {
+    font-size: 1.05rem;
+    max-width: 100%;
+  }
+
+  .section-li .tags {
+    max-width: 100%;
+  }
+}
