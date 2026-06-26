@@ -77,3 +77,4 @@ Reference: [Frank Pasquale. *The Black Box Society: The Secret Algorithms That C
 
 - [[AWS medical AI workflow]]
 - [[Opt-out as default consent]]
+- [[Blender - TIFF stack to volume render]]

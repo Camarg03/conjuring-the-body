@@ -106,3 +106,4 @@ For *Conjuring the Body*, the historical anatomical image and the contemporary m
 
 - [[Black box medical imaging]]
 - [[AWS medical AI workflow]]
+- [[Blender - TIFF stack to volume render]]
