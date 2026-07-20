@@ -1,3 +1,102 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* Image lightbox */
+
+.popup-thumb {
+  width: 100%;
+  max-width: 100%;
+  cursor: zoom-in;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.image-modal {
+  border: none;
+  padding: 0;
+  background: transparent;
+  max-width: 95vw;
+  max-height: 95vh;
+}
+
+.image-modal::backdrop {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.image-modal img {
+  max-width: 90vw;
+  max-height: 90vh;
+  display: block;
+  cursor: zoom-out;
+}
+
+/* Image captions */
+
+figure {
+  margin: 0 0 2.5rem 0;
+}
+
+figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  color: var(--darkgray);
+}
+
+/* Hide visible dates / metadata */
+
+p.meta,
+.content-meta,
+.page-header .meta,
+.page-listing .meta,
+.page-listing .section-li .meta {
+  display: none !important;
+}
+
+/* Clean tag layout */
+
+article ul.tags,
+main ul.tags,
+.page-listing ul.tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.45rem !important;
+  padding-left: 0 !important;
+  margin: 0.75rem 0 1.5rem 0 !important;
+  list-style: none !important;
+}
+
+article ul.tags li,
+main ul.tags li,
+.page-listing ul.tags li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+article ul.tags a,
+main ul.tags a,
+.page-listing ul.tags a {
+  display: inline-block !important;
+  font-size: 0.78rem !important;
+  line-height: 1.2 !important;
+  padding: 0.18rem 0.45rem !important;
+  white-space: nowrap !important;
+}
+
+/* Mobile-safe tag layout */
+
+@media all and (max-width: 800px) {
+  article ul.tags,
+  main ul.tags,
+  .page-listing ul.tags {
+    gap: 0.35rem !important;
+    margin: 0.6rem 0 1.2rem 0 !important;
+  }
+
+  article ul.tags a,
+  main ul.tags a,
+  .page-listing ul.tags a {
+    font-size: 0.74rem !important;
+  }
+}
