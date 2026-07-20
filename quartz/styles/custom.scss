@@ -54,7 +54,7 @@ p.meta,
   display: none !important;
 }
 
-/* Desktop: main heart logo above title/name */
+/* Desktop: heart logo above title/name */
 
 @media all and (min-width: 801px) {
   .page-title {
@@ -121,6 +121,9 @@ p.meta,
     padding-top: 0 !important;
 
     background-image: none !important;
+    background-size: auto !important;
+    background-repeat: initial !important;
+    background-position: initial !important;
 
     color: var(--dark) !important;
     font-family: inherit !important;
@@ -152,44 +155,5 @@ p.meta,
   .page-title::after {
     content: none !important;
     display: none !important;
-  }
-}
-
-/* CBK credit in Quartz footer */
-
-footer::before {
-  content: "Made possible with a financial contribution from CBK Rotterdam.";
-  display: block;
-  width: 260px;
-  margin-bottom: 1.4rem;
-  padding-top: 30px;
-
-  background-image: url("/conjuring-the-body/assets/cbk_logo.png");
-  background-size: 140px auto;
-  background-repeat: no-repeat;
-  background-position: left top;
-
-  color: var(--darkgray);
-  font-family: inherit;
-  font-size: 0.68rem;
-  line-height: 1.28;
-  font-weight: 400;
-  letter-spacing: 0;
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-/* Mobile footer credit */
-
-@media all and (max-width: 800px) {
-  footer::before {
-    width: 220px;
-    margin-bottom: 1.2rem;
-    padding-top: 28px;
-
-    background-size: 112px auto;
-
-    font-size: 0.58rem;
-    line-height: 1.25;
   }
 }
