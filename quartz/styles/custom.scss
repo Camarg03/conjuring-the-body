@@ -69,7 +69,7 @@ p.meta,
   letter-spacing: 0;
 }
 
-/* CBK credit below site title — desktop only */
+/* Animated project logo below title/name — desktop only */
 
 @media all and (min-width: 801px) {
   .page-title {
@@ -77,27 +77,20 @@ p.meta,
   }
 
   .page-title::after {
-    content: "Made possible with a financial contribution from CBK Rotterdam.";
+    content: "";
     display: block;
-    width: 220px;
-    margin-top: 1.45rem;
-    padding-top: 32px;
+    width: 190px;
+    height: 190px;
+    margin-top: 1.15rem;
 
-    background-image: url("/conjuring-the-body/assets/cbk_logo.png");
-    background-size: 135px auto;
+    background-image: url("/conjuring-the-body/assets/logo.gif");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: left top;
-
-    color: var(--darkgray);
-    font-family: inherit;
-    font-size: 0.64rem;
-    line-height: 1.25;
-    font-weight: 400;
-    letter-spacing: 0;
   }
 }
 
-/* Mobile: keep header clean, place CBK at end of article */
+/* Mobile: no animated logo in header */
 
 @media all and (max-width: 800px) {
   .page-title a::after {
@@ -109,24 +102,41 @@ p.meta,
     content: none !important;
     display: none !important;
   }
+}
 
-  article::after {
-    content: "Made possible with a financial contribution from CBK Rotterdam.";
-    display: block;
-    width: 190px;
-    margin-top: 3rem;
-    padding-top: 28px;
+/* CBK credit in Quartz footer */
 
-    background-image: url("/conjuring-the-body/assets/cbk_logo.png");
-    background-size: 105px auto;
-    background-repeat: no-repeat;
-    background-position: left top;
+footer::before {
+  content: "Made possible with a financial contribution from CBK Rotterdam.";
+  display: block;
+  width: 260px;
+  margin-bottom: 1.4rem;
+  padding-top: 38px;
 
-    color: var(--darkgray);
-    font-family: inherit;
+  background-image: url("/conjuring-the-body/assets/cbk_logo.png");
+  background-size: 140px auto;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  color: var(--darkgray);
+  font-family: inherit;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Mobile footer credit */
+
+@media all and (max-width: 800px) {
+  footer::before {
+    width: 210px;
+    margin-bottom: 1.2rem;
+    padding-top: 32px;
+
+    background-size: 110px auto;
+
     font-size: 0.58rem;
     line-height: 1.25;
-    font-weight: 400;
-    letter-spacing: 0;
   }
 }
