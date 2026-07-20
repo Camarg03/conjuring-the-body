@@ -54,7 +54,7 @@ p.meta,
   display: none !important;
 }
 
-/* Desktop: animated logo as main logo */
+/* Desktop: main heart logo above title/name */
 
 @media all and (min-width: 801px) {
   .page-title {
@@ -68,7 +68,7 @@ p.meta,
     height: auto !important;
     padding-top: 230px !important;
 
-    background-image: url("/conjuring-the-body/assets/logo.gif") !important;
+    background-image: url("/conjuring-the-body/assets/logo.png") !important;
     background-size: 220px 220px !important;
     background-repeat: no-repeat !important;
     background-position: left top !important;
@@ -105,7 +105,7 @@ p.meta,
   }
 }
 
-/* Mobile: no logo, clean title + name only */
+/* Mobile: no heart logo, clean title + name only */
 
 @media all and (max-width: 800px) {
   .page-title {
@@ -121,9 +121,6 @@ p.meta,
     padding-top: 0 !important;
 
     background-image: none !important;
-    background-size: auto !important;
-    background-repeat: initial !important;
-    background-position: initial !important;
 
     color: var(--dark) !important;
     font-family: inherit !important;
@@ -165,7 +162,7 @@ footer::before {
   display: block;
   width: 260px;
   margin-bottom: 1.4rem;
-  padding-top: 34px;
+  padding-top: 30px;
 
   background-image: url("/conjuring-the-body/assets/cbk_logo.png");
   background-size: 140px auto;
@@ -178,6 +175,8 @@ footer::before {
   line-height: 1.28;
   font-weight: 400;
   letter-spacing: 0;
+  opacity: 1 !important;
+  filter: none !important;
 }
 
 /* Mobile footer credit */
@@ -186,7 +185,7 @@ footer::before {
   footer::before {
     width: 220px;
     margin-bottom: 1.2rem;
-    padding-top: 30px;
+    padding-top: 28px;
 
     background-size: 112px auto;
 
