@@ -133,3 +133,18 @@ p.meta {
     max-width: 100%;
   }
 }
+
+/* Secondary logo below Explorer */
+
+.explorer::after {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 70px;
+  margin: 2rem 0 0 0;
+  background-image: url("/conjuring-the-body/assets/cbk-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  opacity: 1;
+}
