@@ -80,8 +80,8 @@ p.meta,
     content: "Made possible with a financial contribution from CBK Rotterdam.";
     display: block;
     width: 220px;
-    margin-top: 1.5rem;
-    padding-top: 40px;
+    margin-top: 1.45rem;
+    padding-top: 32px;
 
     background-image: url("/conjuring-the-body/assets/cbk_logo.png");
     background-size: 135px auto;
@@ -97,7 +97,7 @@ p.meta,
   }
 }
 
-/* Mobile: do not place CBK in the header/menu area */
+/* Mobile: keep header clean, place CBK at end of article */
 
 @media all and (max-width: 800px) {
   .page-title a::after {
@@ -115,7 +115,7 @@ p.meta,
     display: block;
     width: 190px;
     margin-top: 3rem;
-    padding-top: 34px;
+    padding-top: 28px;
 
     background-image: url("/conjuring-the-body/assets/cbk_logo.png");
     background-size: 105px auto;
