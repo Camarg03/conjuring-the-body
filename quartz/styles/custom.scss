@@ -41,34 +41,62 @@ p.meta {
   display: none !important;
 }
 
-/* Replace Quartz title with main logo + CBK logo below */
+/* Main logo + project credit block */
 
 .page-title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.4rem !important;
+  max-width: 240px !important;
 }
 
 .page-title a {
-  color: transparent !important;
-  font-size: 0 !important;
   display: block !important;
   width: 220px !important;
-  height: 320px !important;
+  min-height: 220px !important;
+  padding-top: 238px !important;
 
-  background-image:
-    url("/conjuring-the-body/assets/logo.png"),
-    url("/conjuring-the-body/assets/cbk_logo.png") !important;
+  background-image: url("/conjuring-the-body/assets/logo.png") !important;
+  background-size: 220px 220px !important;
+  background-repeat: no-repeat !important;
+  background-position: left top !important;
 
-  background-size:
-    220px 220px,
-    170px auto !important;
+  color: var(--dark) !important;
+  font-size: 1.08rem !important;
+  line-height: 1.18 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em !important;
+  text-decoration: none !important;
+}
 
-  background-repeat:
-    no-repeat,
-    no-repeat !important;
+.page-title a::after {
+  content: "David Camargo";
+  display: block;
+  margin-top: 0.28rem;
+  color: var(--dark);
+  font-size: 0.86rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  opacity: 0.82;
+}
 
-  background-position:
-    left top,
-    left 245px !important;
+.page-title::after {
+  content: "Esto ha sido posible gracias a la contribución financiera de CBK Rotterdam.";
+  display: block;
+  width: 220px;
+  margin-top: 1.25rem;
+  padding-top: 62px;
+
+  background-image: url("/conjuring-the-body/assets/cbk_logo.png");
+  background-size: 145px auto;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  color: var(--dark);
+  font-size: 0.66rem;
+  line-height: 1.28;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  opacity: 0.72;
 }
 
 /* Cleaner folder listing layout */
@@ -170,17 +198,35 @@ p.meta {
 /* Mobile / narrow screens */
 
 @media all and (max-width: 800px) {
+  .page-title {
+    max-width: 190px !important;
+  }
+
   .page-title a {
     width: 180px !important;
-    height: 270px !important;
+    min-height: 180px !important;
+    padding-top: 195px !important;
 
-    background-size:
-      180px 180px,
-      145px auto !important;
+    background-size: 180px 180px !important;
 
-    background-position:
-      left top,
-      left 205px !important;
+    font-size: 0.98rem !important;
+    line-height: 1.18 !important;
+  }
+
+  .page-title a::after {
+    font-size: 0.78rem !important;
+    margin-top: 0.25rem !important;
+  }
+
+  .page-title::after {
+    width: 180px !important;
+    margin-top: 1.05rem !important;
+    padding-top: 54px !important;
+
+    background-size: 125px auto !important;
+
+    font-size: 0.6rem !important;
+    line-height: 1.25 !important;
   }
 
   .section-li .desc h3,
