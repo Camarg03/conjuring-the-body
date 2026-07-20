@@ -157,3 +157,54 @@ p.meta,
     display: none !important;
   }
 }
+
+/* CBK footer credit */
+
+.cbk-footer-credit {
+  display: block;
+  max-width: 280px;
+  margin: 0 0 1.4rem 0;
+  padding: 0;
+}
+
+.cbk-footer-credit img {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 0 0 0.35rem 0;
+  padding: 0;
+
+  opacity: 1 !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+.cbk-footer-credit p {
+  margin: 0;
+  padding: 0;
+
+  color: var(--darkgray);
+  font-family: inherit;
+  font-size: 0.68rem;
+  line-height: 1.28;
+  font-weight: 400;
+}
+
+/* Mobile CBK footer credit */
+
+@media all and (max-width: 800px) {
+  .cbk-footer-credit {
+    max-width: 220px;
+    margin: 0 0 1.2rem 0;
+  }
+
+  .cbk-footer-credit img {
+    width: 120px;
+    margin-bottom: 0.3rem;
+  }
+
+  .cbk-footer-credit p {
+    font-size: 0.58rem;
+    line-height: 1.25;
+  }
+}
