@@ -32,16 +32,17 @@
 /* Hide dates in automatic folder listings */
 
 .section-li .meta {
-
   display: none !important;
-
 }
 
 /* Hide all visible Quartz metadata dates */
+
 p.meta {
   display: none !important;
 }
-/* Replace Quartz title with GIF logo */
+
+/* Replace Quartz title with main logo + CBK logo below */
+
 .page-title {
   margin-bottom: 1.5rem;
 }
@@ -51,11 +52,23 @@ p.meta {
   font-size: 0 !important;
   display: block !important;
   width: 220px !important;
-  height: 220px !important;
-  background-image: url("/conjuring-the-body/assets/logo.png") !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: left center !important;
+  height: 320px !important;
+
+  background-image:
+    url("/conjuring-the-body/assets/logo.png"),
+    url("/conjuring-the-body/assets/cbk_logo.png") !important;
+
+  background-size:
+    220px 220px,
+    170px auto !important;
+
+  background-repeat:
+    no-repeat,
+    no-repeat !important;
+
+  background-position:
+    left top,
+    left 245px !important;
 }
 
 /* Cleaner folder listing layout */
@@ -119,9 +132,57 @@ p.meta {
   display: block !important;
 }
 
+/* Hide tags in folder/category listing pages */
+
+.page-listing ul.tags,
+.page-listing .tags {
+  display: none !important;
+}
+
+/* Give titles more space in folder/category listing pages */
+
+.page-listing li.section-li > .section {
+  display: block !important;
+  grid-template-columns: none !important;
+}
+
+.page-listing .desc {
+  display: block !important;
+  width: 100% !important;
+  max-width: 760px !important;
+}
+
+.page-listing .desc h3 {
+  display: block !important;
+  width: 100% !important;
+  max-width: 760px !important;
+  line-height: 1.3 !important;
+  margin: 0 0 1.2rem 0 !important;
+}
+
+.page-listing .desc h3 a,
+.page-listing a.internal {
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
+
 /* Mobile / narrow screens */
 
 @media all and (max-width: 800px) {
+  .page-title a {
+    width: 180px !important;
+    height: 270px !important;
+
+    background-size:
+      180px 180px,
+      145px auto !important;
+
+    background-position:
+      left top,
+      left 205px !important;
+  }
+
   .section-li .desc h3,
   .section-li .desc h3 a,
   .section-li a.internal {
@@ -132,19 +193,4 @@ p.meta {
   .section-li .tags {
     max-width: 100%;
   }
-}
-
-/* Secondary logo below Explorer */
-
-.explorer-content::after {
-  content: "";
-  display: block;
-  width: 160px;
-  height: 90px;
-  margin: 2rem 0 0 0;
-  background-image: url("/conjuring-the-body/assets/NOMBRE-EXACTO-DEL-LOGO.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left center;
-  opacity: 1;
 }
