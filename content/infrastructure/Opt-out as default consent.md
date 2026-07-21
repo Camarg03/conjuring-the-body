@@ -20,7 +20,11 @@ The problem is not only whether a company directly uses the data. The deeper iss
 
 > Opt-out turns consent into a setting: the subject does not actively authorize the use of their data, but must know how to interrupt a circulation that the infrastructure has already made possible.
 
-## Related notes
+## Connected notes
 
 - [[AWS medical AI workflow]]
 - [[Black box medical imaging]]
+- [[Medical images as biometric traces]]
+- [[MIMIC-CXR - radiographs and reports as multimodal medical data]]
+- [[The Cancer Imaging Archive - heterogeneous cancer image collections]]
+- [[Data colonialism in digital health]]

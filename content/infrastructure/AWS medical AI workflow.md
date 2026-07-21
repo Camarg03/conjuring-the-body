@@ -50,8 +50,12 @@ This workflow also changes how governance should be understood. The question is 
 
 In this sense, power is located not only in data ownership, but in the ability to define the technical conditions under which medical images and health records become usable.
 
-## Related notes
+## Connected notes
 
 - [[Black box medical imaging]]
 - [[Opt-out as default consent]]
-- [[Blender - TIFF stack to volume render]]
+- [[The Cancer Imaging Archive - heterogeneous cancer image collections]]
+- [[MIMIC-CXR - radiographs and reports as multimodal medical data]]
+- [[WORC Database - Rotterdam radiomics corpus]]
+- [[Dataset composition and generalization]]
+- [[Data colonialism in digital health]]

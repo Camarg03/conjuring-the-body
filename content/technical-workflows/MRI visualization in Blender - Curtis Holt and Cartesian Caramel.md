@@ -198,9 +198,11 @@ This workflow should be compared with [[Blender - TIFF stack to volume render]].
 
 Both workflows turn ordered 2D medical slices into a 3D volume inside Blender, but they differ in how the slices are indexed. The UDIM workflow uses numbered texture tiles. The Scan Data Visualizer workflow uses a single packed flipbook image and internal controls for rows, layers, density, interpolation, and output type.
 
-## Related notes
+## Connected notes
 
 - [[Blender - TIFF stack to volume render]]
+- [[Blender - Medical scan image sequence as volume data]]
 - [[Black box medical imaging]]
 - [[Opt-out as default consent]]
 - [[The body as anatomical territory]]
+- [[Medical images as biometric traces]]

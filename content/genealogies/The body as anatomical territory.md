@@ -102,8 +102,11 @@ This does not mean that the body disappears completely. Something remains: a tra
 
 For *Conjuring the Body*, the historical anatomical image and the contemporary medical dataset belong to the same unresolved problem: how the body is made visible, and what is lost, displaced, or obscured in the process.
 
-## Related notes
+## Connected notes
 
+- [[Anatomical illustration - seven historical body images]]
+- [[Visible Human Project - informatic body and digital anatomy]]
+- [[Blender - Visible Human slices to volume cube]]
+- [[Data colonialism in digital health]]
 - [[Black box medical imaging]]
 - [[AWS medical AI workflow]]
-- [[Blender - TIFF stack to volume render]]

@@ -220,3 +220,12 @@ Map Range
 Multiply node  
 Z coordinate sampling  
 slice indexing
+
+## Connected notes
+
+- [[Blender - TIFF stack to volume render]]
+- [[Blender - Visible Human slices to volume cube]]
+- [[Blender - Image sequence slices to point cloud]]
+- [[Black box medical imaging]]
+- [[Visible Human Project - informatic body and digital anatomy]]
+- [[Audiovisual documentation register]]

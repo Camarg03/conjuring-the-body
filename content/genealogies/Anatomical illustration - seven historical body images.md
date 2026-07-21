@@ -240,3 +240,9 @@ Girolamo Fabrizi d’Acquapendente
 Oplomoclion  
 Wellcome Collection  
 Science Photo Library
+
+## Connected notes
+
+- [[The body as anatomical territory]]
+- [[Visible Human Project - informatic body and digital anatomy]]
+- [[Blender - Visible Human slices to volume cube]]

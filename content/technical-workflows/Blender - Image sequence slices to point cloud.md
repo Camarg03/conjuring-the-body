@@ -89,3 +89,11 @@ This workflow is different because it foregrounds Geometry Nodes, repeated slice
 This is a useful workflow to keep in the archive because it shows a less specialized but adaptable strategy. It can act as a bridge between video processing, image sequences, CT-like slice stacks, and procedural geometry generation in Blender.
 
 Its value is not that it solves medical scan visualization completely, but that it makes the basic operation very explicit: an ordered image sequence can be converted into a spatial object by translating frame order into depth.
+
+## Connected notes
+
+- [[Blender - Medical scan image sequence as volume data]]
+- [[Blender - Visible Human slices to volume cube]]
+- [[Blender - TIFF stack to volume render]]
+- [[MRI visualization in Blender - Curtis Holt and Cartesian Caramel]]
+- [[Audiovisual documentation register]]

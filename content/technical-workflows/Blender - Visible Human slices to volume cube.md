@@ -101,3 +101,12 @@ This workflow should be kept separate from the Curtis Holt / Cartesian Caramel M
 This Visible Human workflow is more direct. It begins from anatomical PNG slices and uses Blender’s frame and texture logic to construct a layered volume.
 
 It should also be compared later with the TIFF / UDIM workflow, where a stack of image slices is numbered and read as a volume through a different texture strategy. All three workflows share a common problem: how to make a sequence of two-dimensional body slices behave as a spatial object.
+
+## Connected notes
+
+- [[Visible Human Project - informatic body and digital anatomy]]
+- [[The body as anatomical territory]]
+- [[Blender - Medical scan image sequence as volume data]]
+- [[Blender - Image sequence slices to point cloud]]
+- [[Blender - TIFF stack to volume render]]
+- [[Audiovisual documentation register]]

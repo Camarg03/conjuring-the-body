@@ -73,8 +73,12 @@ Frank Pasquale expands the black box problem beyond medicine. In *The Black Box 
 
 Reference: [Frank Pasquale. *The Black Box Society: The Secret Algorithms That Control Money and Information*.](https://www.jstor.org/stable/j.ctt13x0hch)
 
-## Related notes
+## Connected notes
 
 - [[AWS medical AI workflow]]
 - [[Opt-out as default consent]]
-- [[Blender - TIFF stack to volume render]]
+- [[Race as machine-readable signal]]
+- [[Medical images as biometric traces]]
+- [[Dataset composition and generalization]]
+- [[Fairness and bias in radiomics]]
+- [[Data colonialism in digital health]]

@@ -147,8 +147,10 @@ Every technical decision affects the image:
 
 The workflow is therefore both technical and interpretive. It is not only a method for importing data. It is a method for deciding how a fragment of the body becomes visible.
 
-## Related notes
+## Connected notes
 
-- [[AWS medical AI workflow]]
+- [[Blender - Medical scan image sequence as volume data]]
+- [[MRI visualization in Blender - Curtis Holt and Cartesian Caramel]]
 - [[Black box medical imaging]]
 - [[The body as anatomical territory]]
+- [[AWS medical AI workflow]]
